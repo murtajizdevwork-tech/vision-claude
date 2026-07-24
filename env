@@ -1,0 +1,16 @@
+
+PORT=8080
+
+BASE_PATH=/
+
+
+
+NEON_DATABASE_URL=postgresql://neondb_owner:npg_gowkN6Eplq2c@ep-sweet-mountain-ay4byady-pooler.c-5.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+
+
+JWT_SECRET=postgresql://neondb_owner:npg_gowkN6Eplq2c@ep-sweet-mountain-ay4byady-pooler.c-5.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+
+
+NODE_ENV=development
+LOG_LEVEL=info
+

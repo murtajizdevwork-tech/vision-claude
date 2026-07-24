@@ -1,0 +1,26 @@
+Admin login credentials:
+  Email:    admin@visionprep.com
+  Password: VisionAdmin@2025
+  URL:      /admin
+
+
+
+  to run front end :
+
+
+  cd artifacts\vision-prep
+$env:PORT="5173"
+$env:BASE_PATH="/"
+pnpm run dev
+
+
+
+to run back end :
+
+
+cd artifacts/api-server
+$env:PORT="8080"
+$env:NEON_DATABASE_URL="postgresql://neondb_owner:npg_gowkN6Eplq2c@ep-sweet-mountain-ay4byady-pooler.c-5.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+$env:JWT_SECRET="U8KA5FjU5F0JSAPF/m2uldfXAhavX5gbW6VqeVO3785vsyVXN+59JhpQ2LabE9EXvGhY3VSMeFhbG2LQnmMfAg=="
+pnpm run build
+pnpm run start

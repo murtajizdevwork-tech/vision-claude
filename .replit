@@ -1,0 +1,22 @@
+modules = ["nodejs-22", "postgresql-16"]
+
+[[ports]]
+localPort = 8080
+externalPort = 8080
+
+[[ports]]
+localPort = 20697
+externalPort = 80
+
+[nix]
+channel = "stable-25_05"
+
+[userenv]
+
+[userenv.shared]
+VITE_API_URL = ""
+ADMIN_PASSWORD = "55420960a"
+
+[userenv.development]
+PORT = "8080"
+BASE_PATH = "/"
