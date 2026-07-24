@@ -184,6 +184,9 @@ importers:
       multer:
         specifier: 1.4.5-lts.2
         version: 1.4.5-lts.2
+      pg:
+        specifier: ^8.22.0
+        version: 8.22.0
       pino:
         specifier: ^9.14.0
         version: 9.14.0
